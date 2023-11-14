@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea5fabd361f4d0f81a66ff0fcdd77dd, type: 3}
+  m_Name: References
+  m_EditorClassIdentifier: 
+  _backgroundRules: []
+  _bookmarks: []
+  _emptyInspectorItems:
+  - title: Ultimate Editor Enhancer
+    enabled: 1
+    items:
+    - title: Bookmarks
+      menuPath: Tools/Infinity Code/Ultimate Editor Enhancer/Bookmarks
+      enabled: 1
+    - title: Distance Tool
+      menuPath: Tools/Infinity Code/Ultimate Editor Enhancer/Distance Tool
+      enabled: 1
+    - title: View Gallery
+      menuPath: Tools/Infinity Code/Ultimate Editor Enhancer/View Gallery
+      enabled: 1
+    - title: Documentation
+      menuPath: Tools/Infinity Code/Ultimate Editor Enhancer/Documentation
+      enabled: 1
+    - title: Settings
+      menuPath: Tools/Infinity Code/Ultimate Editor Enhancer/Settings
+      enabled: 1
+  - title: Settings
+    enabled: 1
+    items:
+    - title: Project Settings
+      menuPath: Edit/Project Settings...
+      enabled: 1
+    - title: Preferences
+      menuPath: Edit/Preferences...
+      enabled: 1
+    - title: Shortcuts
+      menuPath: Edit/Shortcuts...
+      enabled: 1
+  - title: Packages
+    enabled: 1
+    items:
+    - title: Import Custom Package
+      menuPath: Assets/Import Package/Custom Package...
+      enabled: 1
+  _favoriteWindows: []
+  _headerRules:
+  - enabled: 1
+    condition: 0
+    value: --Main
+    trimChars: -=
+    backgroundColor: {r: 0.6784314, g: 0.003921569, b: 0.015686275, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textAlign: 1
+    textStyle: 1
+  - enabled: 1
+    condition: 0
+    value: --Player
+    trimChars: -=
+    backgroundColor: {r: 0.6117647, g: 0.21568629, b: 0.007843138, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textAlign: 1
+    textStyle: 1
+  - enabled: 1
+    condition: 0
+    value: --UI
+    trimChars: -=
+    backgroundColor: {r: 0.7019608, g: 0.4901961, b: 0.003921569, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textAlign: 1
+    textStyle: 1
+  - enabled: 1
+    condition: 0
+    value: --Enviroment
+    trimChars: -=
+    backgroundColor: {r: 0.28627452, g: 0.6117647, b: 0.039215688, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textAlign: 1
+    textStyle: 1
+  - enabled: 1
+    condition: 0
+    value: --q
+    trimChars: -=
+    backgroundColor: {r: 0.027450982, g: 0.4784314, b: 0.34117648, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textAlign: 1
+    textStyle: 1
+  - enabled: 1
+    condition: 0
+    value: --w
+    trimChars: -=
+    backgroundColor: {r: 0.03529412, g: 0.2627451, b: 0.45882356, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textAlign: 1
+    textStyle: 1
+  _quickAccessItems:
+  - tooltip: Open Scene
+    expanded: 0
+    settings:
+    - InfinityCode.UltimateEditorEnhancer.SceneTools.QuickAccessActions.OpenAction
+    intSettings: 
+    type: 7
+    visibleRules: 0
+    icon: 1
+    iconScale: 1
+    iconSettings: 
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Save Scenes
+    expanded: 0
+    settings:
+    - InfinityCode.UltimateEditorEnhancer.SceneTools.QuickAccessActions.SaveAction
+    intSettings: 
+    type: 7
+    visibleRules: 0
+    icon: 1
+    iconScale: 1
+    iconSettings: 
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Hierarchy
+    expanded: 0
+    settings:
+    - UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 1
+    icon: 0
+    iconScale: 1
+    iconSettings: Assets\Plugins\Infinity Code\Ultimate Editor Enhancer/Icons/Hierarchy2.png
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Project
+    expanded: 0
+    settings:
+    - UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 1
+    icon: 0
+    iconScale: 1
+    iconSettings: Assets\Plugins\Infinity Code\Ultimate Editor Enhancer/Icons/Project.png
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Inspector
+    expanded: 0
+    settings:
+    - UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 1
+    icon: 0
+    iconScale: 1
+    iconSettings: Assets\Plugins\Infinity Code\Ultimate Editor Enhancer/Icons/Inspector.png
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Bookmarks
+    expanded: 0
+    settings:
+    - InfinityCode.UltimateEditorEnhancer.Windows.Bookmarks, UltimateEditorEnhancer-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 0
+    icon: 0
+    iconScale: 1
+    iconSettings: Assets\Plugins\Infinity Code\Ultimate Editor Enhancer/Icons/Star-White.png
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Note Manager
+    expanded: 0
+    settings:
+    - InfinityCode.UltimateEditorEnhancer.NoteManager, UltimateEditorEnhancer-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 0
+    icon: 0
+    iconScale: 1
+    iconSettings: Assets\Plugins\Infinity Code\Ultimate Editor Enhancer/Icons/Note-Empty.png
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: View Gallery
+    expanded: 0
+    settings:
+    - InfinityCode.UltimateEditorEnhancer.Windows.ViewGallery, UltimateEditorEnhancer-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 0
+    icon: 1
+    iconScale: 1
+    iconSettings: d_ViewToolOrbit
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Distance Tool
+    expanded: 0
+    settings:
+    - InfinityCode.UltimateEditorEnhancer.Windows.DistanceTool, UltimateEditorEnhancer-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 0
+    icon: 0
+    iconScale: 1
+    iconSettings: Assets\Plugins\Infinity Code\Ultimate Editor Enhancer/Icons/Rule.png
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: 
+    expanded: 1
+    settings: []
+    intSettings: 
+    type: 5
+    visibleRules: 0
+    icon: 1
+    iconScale: 1
+    iconSettings: 
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Edit Items
+    expanded: 0
+    settings:
+    - Project/Ultimate Editor Enhancer/Scene View/Quick Access Bar
+    intSettings: 
+    type: 6
+    visibleRules: 0
+    icon: 1
+    iconScale: 1
+    iconSettings: d_Settings
+    useCustomWindowSize: 0
+    customWindowSize: {x: 400, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  - tooltip: Info
+    expanded: 0
+    settings:
+    - InfinityCode.UltimateEditorEnhancer.Windows.Welcome, UltimateEditorEnhancer-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    intSettings: 
+    type: 0
+    visibleRules: 0
+    icon: 1
+    iconScale: 1
+    iconSettings: _Help
+    useCustomWindowSize: 1
+    customWindowSize: {x: 500, y: 300}
+    alignWindowToBar: 1
+    windowMode: 0
+  _projectFolderIcons:
+  - folderName: Addons|Assemblies|Extensions|Library|Libraries|Packages|Plugins
+    icon: Assembly Icon
+    color: {r: 0.4716981, g: 0.4160115, b: 0, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Android
+    icon: BuildSettings.Android
+    color: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Animation|Animations
+    icon: AnimationClip Icon
+    color: {r: 0.11774653, g: 0.31944197, b: 0.9245283, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Animator
+    icon: Animator Icon
+    color: {r: 0.10426309, g: 0.41274393, b: 0.6698113, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Audio|Music|Sound|Sounds|SFX
+    icon: AudioSource Gizmo
+    color: {r: 0.5568628, g: 0, b: 0.3529412, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Camera|Cameras
+    icon: Camera Gizmo
+    color: {r: 0.085751146, g: 0.4433962, b: 0.24342264, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Characters
+    icon: Avatar Icon
+    color: {r: 0.06550375, g: 0.33822712, b: 0.6037736, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Demo|Demos|Example|Examples|Sample|Samples
+    icon: CanvasGroup Icon
+    color: {r: 0.72156864, g: 0.20392159, b: 0.10980393, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Docs|Documentation|Tutorial|Tutorials
+    icon: console.infoicon
+    color: {r: 0.7075472, g: 0.45782468, b: 0, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Editor|Extensions
+    icon: TextAsset Icon
+    color: {r: 0, g: 0.42975318, b: 0.4433962, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Effects|VisualEffect|VisualEffects|VFX|VFXs
+    icon: VisualEffect Gizmo
+    color: {r: 0.5849056, g: 0, b: 0.19132419, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Font|Fonts
+    icon: Font Icon
+    color: {r: 0.6037736, g: 0.33084804, b: 0.06550375, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: GUI|UI
+    icon: GUILayer Icon
+    color: {r: 0.0102349585, g: 0.34001195, b: 0.4339623, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Icons|Images|Textures
+    icon: Texture Icon
+    color: {r: 0.4811321, g: 0.19938807, b: 0, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Input|InputSystem
+    icon: StandaloneInputModule Icon
+    color: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Mats|Materials
+    icon: Material Icon
+    color: {r: 0.12071954, g: 0.0763617, b: 0.41509432, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Mesh|Meshes
+    icon: AudioReverbFilter Icon
+    color: {r: 0.5566038, g: 0.112896055, b: 0.112896055, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Model|Models
+    icon: Mesh Icon
+    color: {r: 0.5188679, g: 0.070977226, b: 0.16055527, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Particles
+    icon: ParticleSystem Icon
+    color: {r: 0.5568628, g: 0, b: 0.3529412, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Physics|PhysicsMaterials|Physics Materials
+    icon: PhysicMaterial Icon
+    color: {r: 0.08139017, g: 0.2924528, b: 0.17539284, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: PostProcessing
+    icon: VisualEffectAsset Icon
+    color: {r: 0.5566038, g: 0, b: 0.35153922, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Prefab|Prefabs|_Prefabs
+    icon: Prefab Icon
+    color: {r: 0.0540337, g: 0.3679245, b: 0, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Presets
+    icon: Preset.Context
+    color: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: RenderTexture|RenderTextures
+    icon: RenderTexture Icon
+    color: {r: 0.32969606, g: 0.13817194, b: 0.4245283, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Resources|StreamingAssets
+    icon: BlendTree Icon
+    color: {r: 0.4745098, g: 0.41960785, b: 0, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Rigs
+    icon: CharacterJoint Icon
+    color: {r: 0.013127446, g: 0.3771526, b: 0.5566038, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Runtime|Script|Scripts
+    icon: cs Script Icon
+    color: {r: 0, g: 0.2947691, b: 0.5188679, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Scene|Scenes
+    icon: UnityLogo
+    color: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Scene Nav
+    icon: NavMeshData Icon
+    color: {r: 0, g: 0.3490566, b: 0.13273042, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: ScriptableObjects
+    icon: ScriptableObject Icon
+    color: {r: 0, g: 0.29599583, b: 0.4056604, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Settings
+    icon: Settings
+    color: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Shader|Shaders
+    icon: Shader Icon
+    color: {r: 0, g: 0.41509432, b: 0.27564856, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Skybox
+    icon: DirectionalLight Gizmo
+    color: {r: 0.4745098, g: 0.41960785, b: 0, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: SpriteAtlases
+    icon: SpriteAtlas Icon
+    color: {r: 0.6320754, g: 0.11031505, b: 0.11031505, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Sprites
+    icon: Sprite Icon
+    color: {r: 0.6037736, g: 0.12815951, b: 0.12815951, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Stamps
+    icon: TerrainInspector.TerrainToolSetheight On
+    color: {r: 0.26504138, g: 0.20572266, b: 0.6320754, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Stylesheets
+    icon: StyleSheet Icon
+    color: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Terrain|Terrains
+    icon: Terrain Icon
+    color: {r: 0.509434, g: 0.14177644, b: 0.14177644, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Video|Videos
+    icon: VideoPlayer Icon
+    color: {r: 0.35584214, g: 0.22614807, b: 0.6226415, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: Graphics
+    icon: BuildSettings.Standalone
+    color: {r: 0.4433962, g: 0.07320219, b: 0.3631875, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: _Objects
+    icon: d_GameObject Icon
+    color: {r: 0.057404775, g: 0.2830189, b: 0.067073956, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: '[HDRP]'
+    icon: BuildSettings.Standalone
+    color: {r: 0.31764707, g: 0.31764707, b: 0.31764707, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: '[General]'
+    icon: VerticalLayoutGroup Icon
+    color: {r: 0.30980393, g: 0.30980393, b: 0.30980393, a: 1}
+    rootOnly: 0
+    recursive: 1
+  - folderName: 3rd-Party
+    icon: ProceduralMaterial Icon
+    color: {r: 0.23584908, g: 0.083437175, b: 0.10282036, a: 1}
+    rootOnly: 0
+    recursive: 1
+  _sceneHistory:
+  - name: GeneralTests
+    path: Assets/Scenes/_Development/_Tests/GeneralTests.unity
+  _notes: []

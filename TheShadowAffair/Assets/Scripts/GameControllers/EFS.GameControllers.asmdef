@@ -1,0 +1,16 @@
+{
+    "name": "EFS.GameControllers",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cf53dbee9420618468be2b1e4b801a67"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
